@@ -1,6 +1,6 @@
 name = "eccodes_jll"
 uuid = "b04048ba-5ccd-5610-b3f6-85129a548705"
-version = "2.17.0+0"
+version = "2.18.0+0"
 
 [deps]
 OpenJpeg_jll = "643b3616-a352-519d-856d-80112ee9badc"
