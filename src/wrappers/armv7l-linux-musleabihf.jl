@@ -3,52 +3,15 @@ export eccodes
 
 using libpng_jll
 using OpenJpeg_jll
-## Global variables
-PATH = ""
-LIBPATH = ""
-LIBPATH_env = "LD_LIBRARY_PATH"
-LIBPATH_default = ""
-
-# Relative path to `eccodes`
-const eccodes_splitpath = ["lib", "libeccodes.so"]
-
-# This will be filled out by __init__() for all products, as it must be done at runtime
-eccodes_path = ""
-
-# eccodes-specific global declaration
-# This will be filled out by __init__()
-eccodes_handle = C_NULL
-
-# This must be `const` so that we can use it with `ccall()`
-const eccodes = "libeccodes.so"
-
-
-"""
-Open all libraries
-"""
+JLLWrappers.@generate_wrapper_header("eccodes")
+JLLWrappers.@declare_library_product(eccodes, "libeccodes.so")
 function __init__()
-    global artifact_dir = abspath(artifact"eccodes")
+    JLLWrappers.@generate_init_header(libpng_jll, OpenJpeg_jll)
+    JLLWrappers.@init_library_product(
+        eccodes,
+        "lib/libeccodes.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
 
-    # Initialize PATH and LIBPATH environment variable listings
-    global PATH_list, LIBPATH_list
-    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
-    # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (libpng_jll.PATH_list, OpenJpeg_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (libpng_jll.LIBPATH_list, OpenJpeg_jll.LIBPATH_list,))
-
-    global eccodes_path = normpath(joinpath(artifact_dir, eccodes_splitpath...))
-
-    # Manually `dlopen()` this right now so that future invocations
-    # of `ccall` with its `SONAME` will find this path immediately.
-    global eccodes_handle = dlopen(eccodes_path)
-    push!(LIBPATH_list, dirname(eccodes_path))
-
-    # Filter out duplicate and empty entries in our PATH and LIBPATH entries
-    filter!(!isempty, unique!(PATH_list))
-    filter!(!isempty, unique!(LIBPATH_list))
-    global PATH = join(PATH_list, ':')
-    global LIBPATH = join(vcat(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ':')
-
-    
+    JLLWrappers.@generate_init_footer()
 end  # __init__()
-
