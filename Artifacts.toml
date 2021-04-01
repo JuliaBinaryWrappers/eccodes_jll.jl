@@ -1,115 +1,115 @@
 [[eccodes]]
 arch = "aarch64"
-git-tree-sha1 = "8bc76e5fc209b7e9a3abc64f2f2f68886312f714"
+git-tree-sha1 = "28d47dfe3aa0c54390d2059f55a8a69d783ff37a"
 libc = "glibc"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "84b06f6879be498b647ede4aba30a73dc58c8f0399fa95a6f7c07d01c91e2c6e"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "3ef20003e4bee83fbc20d610046708d6efe1a21cfd68d0aa938630b33fa13d65"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.aarch64-linux-gnu.tar.gz"
 [[eccodes]]
 arch = "aarch64"
-git-tree-sha1 = "518afae43acff7cfd1abce28e195cbfb12a4a86b"
+git-tree-sha1 = "2a9e9ae734676fa71937042a1b6313320f1eff54"
 libc = "musl"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "e9a151b00d7b6604542702f2c182a31a355e968dc0eb6448a726c2454bad91b3"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.aarch64-linux-musl.tar.gz"
+    sha256 = "cfe1937930d5e152d8da801a2b417f578ce3832e13f6d238cb199dfaa62587a0"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.aarch64-linux-musl.tar.gz"
 [[eccodes]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "c072e5c6af1923e0068ef5a85571ba31231e2080"
+git-tree-sha1 = "a91fa6aaaa4b81a7c741196cef5d9be421ff959d"
 libc = "glibc"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "85add868702f22462e405a13a6a091317944289d76bd0dae9edadbc4995f2186"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "20fef78997edad09753a0b848b8d0ba91f3ef6206d62f7b1c68d4412da86626e"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.armv7l-linux-gnueabihf.tar.gz"
 [[eccodes]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "21caedd2eb029d6231b4a2c9455e7aabc9ce9c3e"
+git-tree-sha1 = "8196a80ec69a12e0ba910c7d8c540300cb189c67"
 libc = "musl"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "efb19faca5bf3acd4cf3d3d21a7998ffadaa2d965f9c57b0072b9fc915216ca3"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "968839d6ca728fd1527f067f2a90692bd3ed9bf3566ff219d8e6a356e1e128c8"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.armv7l-linux-musleabihf.tar.gz"
 [[eccodes]]
 arch = "i686"
-git-tree-sha1 = "d9ead9c3819719596cd61a162ecbc8340c3d9ab0"
+git-tree-sha1 = "28095e50bf0b89041038dadbc59467a7f8378525"
 libc = "glibc"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "ba94edfa1d183e02a6f1d5e1553c46702692f30c311fd77d506a4c86d3f944ea"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.i686-linux-gnu.tar.gz"
+    sha256 = "48f44a61e5d77c1a5852f7d1a444d9d716ad899483fc49db2b1217ffe094f007"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.i686-linux-gnu.tar.gz"
 [[eccodes]]
 arch = "i686"
-git-tree-sha1 = "6dba98b89165690c3496c51cb5a360d90236c7de"
+git-tree-sha1 = "cec51d0d73662a26c06cd497b1a8720d725c400d"
 libc = "musl"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "562f51c296ef1c4291a0c26ef224beb09074451d985ce0ba9e8b4437007cd60d"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.i686-linux-musl.tar.gz"
+    sha256 = "6e82a63c1f4393d437943b8f5572b950507b247c2aa7eb6364f1d5494d8bf6d0"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.i686-linux-musl.tar.gz"
 [[eccodes]]
 arch = "i686"
-git-tree-sha1 = "d0f40baae6c46367c58adde917fa550677c5cb79"
+git-tree-sha1 = "fa3bb933fa2005accd373e821a587dd6796b17e0"
 os = "windows"
 
     [[eccodes.download]]
-    sha256 = "9444cf3aae3f988416dc724853fc624147d979aefd6902226a7ba2cd2a59f32e"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.i686-w64-mingw32.tar.gz"
+    sha256 = "1c0858435c8ff0abbbd7b098434d23936aa9ac1229c13e4e39d8bf9722a5f633"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.i686-w64-mingw32.tar.gz"
 [[eccodes]]
 arch = "powerpc64le"
-git-tree-sha1 = "8827049321c50a97f27fb6457a3262cfea08e117"
+git-tree-sha1 = "7ece869c3f1e300b92caebbc7bb718a7c50b9ae4"
 libc = "glibc"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "dba65c5aa51c8ce60bdade7f22bf401b8ac5c44df31634a2702ab306e218adb0"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "7fa628b0b833d4317e662bff9d148d722bb5a9aad030d7bcfb9acadebc222c6c"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.powerpc64le-linux-gnu.tar.gz"
 [[eccodes]]
 arch = "x86_64"
-git-tree-sha1 = "626d4518031063bd4ceb0e583a8514b58eab8cff"
+git-tree-sha1 = "edacd48566d307ce83caabc55d9a3627b770fcd8"
 os = "macos"
 
     [[eccodes.download]]
-    sha256 = "f5993be6d3402b3e7da26ce1775c49376f1bda6359fc72a143f918c2f992a720"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "d4da1c87a538708eeedd912d7d532719285a3ad7110e22fa7eb082c3b34241bb"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.x86_64-apple-darwin.tar.gz"
 [[eccodes]]
 arch = "x86_64"
-git-tree-sha1 = "778543903006eef297a210cb221c8cbb07cb0b39"
+git-tree-sha1 = "d57f2e5192df1bb101ef808ed3ba1dfb904314b0"
 libc = "glibc"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "5c8c1fa2ee4c1721a56bd077e3a810272f08c0d691ae4b02fb5bd2dd562d314d"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "923c608a089eed72961533085ad7c02f66942b6bddc5f04eec32c7eb7ff83b95"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.x86_64-linux-gnu.tar.gz"
 [[eccodes]]
 arch = "x86_64"
-git-tree-sha1 = "d6e46675482f42400b74fb445acd8aa205f9ff8b"
+git-tree-sha1 = "0fc58c3b74d4d3827f3bf8c31e2cc99d1c78ebd9"
 libc = "musl"
 os = "linux"
 
     [[eccodes.download]]
-    sha256 = "9c33b7d3fa300ffd604110f1bff62562d7e188327a2db57e20a0bf865e22d238"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.x86_64-linux-musl.tar.gz"
+    sha256 = "0f41eb88ea08f17fc5b724ae19ebfa358c64ebcf63fb6f34e33e8f398af22f70"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.x86_64-linux-musl.tar.gz"
 [[eccodes]]
 arch = "x86_64"
-git-tree-sha1 = "3b1aa9368a1193d203cdc432ea7e891bc0bb65de"
+git-tree-sha1 = "858b77c7a4e558ec90cce3a66f073ef8c85a86bc"
 os = "freebsd"
 
     [[eccodes.download]]
-    sha256 = "bf1aca1a457d95db6f919969650be4cde6dceff7fa180c92cafc72a0b27b6943"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "055f41dda96fc9eae0f9a35288867d8ebe9610d5822816ae2b41b684b433456b"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.x86_64-unknown-freebsd.tar.gz"
 [[eccodes]]
 arch = "x86_64"
-git-tree-sha1 = "dbd1210655432d99eb814a28e0bd9620b5b65448"
+git-tree-sha1 = "8e26b0fff836857b794b8e57ba0daff01c63b53a"
 os = "windows"
 
     [[eccodes.download]]
-    sha256 = "253a51f7025323f51350f33c68b3e6bdc3717154fdeeab961cccb2a36d590dfd"
-    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.19.1+0/eccodes.v2.19.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "410cbbfd7db716945724ec6d1f49f6b46f8e55c5f7c55f937c024f12c00d68ce"
+    url = "https://github.com/JuliaBinaryWrappers/eccodes_jll.jl/releases/download/eccodes-v2.21.0+0/eccodes.v2.21.0.x86_64-w64-mingw32.tar.gz"
