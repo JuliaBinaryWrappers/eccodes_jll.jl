@@ -4,11 +4,12 @@ export eccodes, libeccodes_f90
 using CompilerSupportLibraries_jll
 using libpng_jll
 using OpenJpeg_jll
+using libaec_jll
 JLLWrappers.@generate_wrapper_header("eccodes")
 JLLWrappers.@declare_library_product(eccodes, "@rpath/libeccodes.dylib")
 JLLWrappers.@declare_library_product(libeccodes_f90, "@rpath/libeccodes_f90.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libpng_jll, OpenJpeg_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libpng_jll, OpenJpeg_jll, libaec_jll)
     JLLWrappers.@init_library_product(
         eccodes,
         "lib/libeccodes.dylib",
